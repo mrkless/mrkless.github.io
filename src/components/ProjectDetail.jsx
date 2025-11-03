@@ -24,12 +24,12 @@ const ProjectDetails = () => {
   }
 
   const images = project.Images || [
-    "/proj/welcome.jpg",
-    "/proj/continue.jpg",
-    "/proj/signup.jpg",
-    "/proj/verification.jpg",
-    "/proj/dashboard.jpg",
-    "/proj/profile.jpg",
+    "public/proj/welcome.jpg",
+    "public/proj/continue.jpg",
+    "public/proj/signup.jpg",
+    "public/proj/verification.jpg",
+    "public/proj/dashboard.jpg",
+    "public/proj/profile.jpg",
   ];
 
   return (
