@@ -55,7 +55,7 @@ const CardProject = ({ Img, Title, Description, id, GithubLink, TechStack }) => 
         {/* Action Buttons */}
         <div className="mt-4 flex justify-between items-center">
           <a
-            href={GithubLink || "https://github.com/mrkless/CapstoneProject/tree/main/flutter_project/flutter_application_2/lib"}
+            href={GithubLink || "https://github.com/mrkless/CapstoneProject/tree/main#"}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-purple-600/20 hover:bg-purple-600/30 text-purple-200 text-sm font-medium transition-all duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-500/50"

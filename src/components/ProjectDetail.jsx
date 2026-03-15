@@ -95,7 +95,7 @@ const ProjectDetails = () => {
             {/* Action Buttons */}
             <div className="flex flex-wrap gap-4">
               <a
-                href={project.Github || project.GithubLink || "https://github.com/mrkless/CapstoneProject/tree/main/flutter_project/flutter_application_2/lib"}
+                href={project.Github || project.GithubLink || "https://github.com/mrkless/CapstoneProject/tree/main#"}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 text-white font-bold transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_0_30px_rgba(168,85,247,0.4)] focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-[#030014]"
