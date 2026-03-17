@@ -6,15 +6,15 @@ import 'aos/dist/aos.css';
 const Header = memo(() => (
   <div className="text-center lg:mb-8 mb-2 px-[5%]">
     <div className="inline-block relative group">
-      <h2 
-        className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]" 
+      <h2
+        className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]"
         data-aos="zoom-in-up"
         data-aos-duration="600"
       >
         About Me
       </h2>
     </div>
-    <p 
+    <p
       className="mt-2 text-gray-400 max-w-2xl mx-auto text-base sm:text-lg flex items-center justify-center gap-2"
       data-aos="zoom-in-up"
       data-aos-duration="800"
@@ -40,7 +40,7 @@ const ProfileImage = memo(() => (
           <div className="absolute inset-0 border-4 border-white/20 rounded-full z-20 transition-all duration-700 group-hover:border-white/40 group-hover:scale-105" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/40 z-10 transition-opacity duration-700 group-hover:opacity-0 hidden sm:block" />
           <div className="absolute inset-0 bg-gradient-to-t from-purple-500/20 via-transparent to-blue-500/20 z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-700 hidden sm:block" />
-          
+
           <img
             src="/Photo.jpg"
             alt="Profile"
@@ -92,7 +92,7 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              I’m a passionate full stack developer and a fresh graduate with a Bachelor’s degree in Information Technology from Isabela State University, where I specialized in Web and Mobile Application Development. I enjoy creating clean, responsive, and user-friendly applications while continuously learning new technologies to improve my skills. My goal is to build meaningful digital solutions that make everyday life easier and more engaging.
+              I’m a passionate full stack developer with a Bachelor’s degree in Information Technology from Isabela State University, where I specialized in Web and Mobile Application Development. I enjoy creating clean, responsive, and user-friendly applications while continuously learning new technologies to improve my skills. My goal is to build meaningful digital solutions that make everyday life easier and more engaging.
             </p>
 
             <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-4">
