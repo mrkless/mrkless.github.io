@@ -25,7 +25,7 @@ const ProjectDetails = () => {
           .select("*")
           .eq("id", id)
           .single();
-        
+
         if (error) throw error;
         setProject(data);
       } catch (err) {
@@ -38,7 +38,7 @@ const ProjectDetails = () => {
         setLoading(false);
       }
     };
-    
+
     fetchProject();
   }, [id]);
 
@@ -161,7 +161,7 @@ const ProjectDetails = () => {
 
                 {/* Device Camera/Notch */}
                 {isWebsite ? (
-                   <div className="absolute top-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-gray-800 rounded-full z-30 shadow-inner"></div>
+                  <div className="absolute top-1 left-1/2 -translate-x-1/2 w-1.5 h-1.5 bg-gray-800 rounded-full z-30 shadow-inner"></div>
                 ) : (
                   <div className="absolute top-0 inset-x-0 h-4 md:h-5 bg-gray-900 rounded-b-2xl w-1/3 mx-auto flex justify-center items-center z-30 shadow-md">
                     <div className="w-10 h-1 bg-gray-700 rounded-full" />
