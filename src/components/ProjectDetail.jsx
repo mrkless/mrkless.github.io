@@ -69,7 +69,7 @@ const ProjectDetails = () => {
   const techStack = project.TechStack || project.techStack || project.tech_stack || ["React", "Tailwind", "Vite"];
   const githubLink = project.Github || project.GithubLink || project.link || "https://github.com/mrkless/CapstoneProject/tree/main#";
   const isWebsite = String(id) === "2" || title.toLowerCase().includes("campus");
-  const demoLink = project.demo || project.live || (String(id) === "2" ? "https://campus-found-drab.vercel.app" : null);
+  const demoLink = project.demo || project.live;
 
   const nextImage = () => setCurrentImage((prev) => (prev + 1) % images.length);
   const prevImage = () => setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
